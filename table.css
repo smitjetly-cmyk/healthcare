@@ -1,0 +1,35 @@
+/* =========================================
+   TASK 7 - TABLE STYLING
+   ========================================= */
+
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background-color: #ffffff;
+}
+
+th,
+td {
+    border: 1px solid #999;
+    padding: 10px;
+    text-align: center;
+}
+
+thead th {
+    background-color: #003366;
+    color: #ffffff;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #eaf2fb;
+}
+
+tbody tr:hover {
+    background-color: #cfe3ff;
+}
+
+tfoot td {
+    background-color: #f0f0f0;
+    font-style: italic;
+}

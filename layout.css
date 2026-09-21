@@ -1,0 +1,34 @@
+/* =========================================
+   TASK 9 - PAGE LAYOUT
+   ========================================= */
+
+.page-layout {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    align-items: flex-start;
+}
+
+.page-layout .sidebar {
+    flex: 0 0 220px;
+}
+
+.content {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 768px) {
+
+    .page-layout {
+        flex-direction: column;
+    }
+
+    .page-layout .sidebar {
+        width: 100%;
+    }
+
+}

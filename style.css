@@ -1,0 +1,159 @@
+/* =========================================
+   TASK 3 - EXTERNAL CSS
+   SMIT CLINICAL LAB
+   ========================================= */
+
+/* Applies box sizing to all elements */
+* {
+    box-sizing: border-box;
+}
+
+
+/* =========================================
+   BODY
+   ========================================= */
+
+body {
+    font-family: "Segoe UI", Arial, sans-serif;
+    background-color: #f4f8fb !important;
+    margin: 0;
+    padding: 0;
+    color: #222222;
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   HEADINGS
+   ========================================= */
+
+h1,
+h2,
+h3 {
+    color: #003366;
+}
+
+h2 {
+    border-bottom: 2px solid #0059b3;
+    padding-bottom: 8px;
+}
+
+
+/* =========================================
+   LINKS
+   ========================================= */
+
+a {
+    color: #0059b3;
+}
+
+a:hover {
+    color: #003366;
+}
+
+
+/* =========================================
+   HEADER
+   ========================================= */
+
+header {
+    background-color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #003366;
+    margin: 0;
+}
+
+header p {
+    color: #0059b3;
+    font-weight: bold;
+}
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+nav {
+    background-color: #003366;
+    padding: 12px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #0059b3;
+    color: #ffe600;
+    text-decoration: underline;
+}
+
+
+/* =========================================
+   MAIN CONTENT
+   ========================================= */
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 25px;
+}
+
+article {
+    padding: 10px;
+}
+
+
+/* =========================================
+   FOOTER
+   ========================================= */
+
+.site-footer {
+    background-color: #003366;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.site-footer p {
+    margin: 0;
+}
+
+
+/* =========================================
+   GENERAL TABLE / CONTENT
+   ========================================= */
+
+img {
+    max-width: 100%;
+}
+
+
+/* =========================================
+   RESPONSIVE DESIGN
+   ========================================= */
+
+@media (max-width: 768px) {
+
+    nav a {
+        display: block;
+        margin: 3px;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+}
